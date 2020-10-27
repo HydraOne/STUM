@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.pzhu.geny.mapper.MajorMapper">
+  <resultMap id="BaseResultMap" type="cn.pzhu.geny.pojo.Major">
+    <id column="act_id" jdbcType="INTEGER" property="actId" />
+    <result column="act_name" jdbcType="VARCHAR" property="actName" />
+    <result column="act_descr" jdbcType="VARCHAR" property="actDescr" />
+    <result column="act_start" jdbcType="DATE" property="actStart" />
+    <result column="act_end" jdbcType="DATE" property="actEnd" />
+    <result column="act_score" jdbcType="FLOAT" property="actScore" />
+    <result column="act_tea_no" jdbcType="INTEGER" property="actTeaNo" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    act_id, act_name, act_descr, act_start, act_end, act_score, act_tea_no
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from activity
+    where act_id = #{actId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from activity
+    where act_id = #{actId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="cn.pzhu.geny.pojo.Major">
+    insert into activity (act_id, act_name, act_descr, 
+      act_start, act_end, act_score, 
+      act_tea_no)
+    values (#{actId,jdbcType=INTEGER}, #{actName,jdbcType=VARCHAR}, #{actDescr,jdbcType=VARCHAR}, 
+      #{actStart,jdbcType=DATE}, #{actEnd,jdbcType=DATE}, #{actScore,jdbcType=FLOAT}, 
+      #{actTeaNo,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="cn.pzhu.geny.pojo.Major">
+    insert into activity
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="actId != null">
+        act_id,
+      </if>
+      <if test="actName != null">
+        act_name,
+      </if>
+      <if test="actDescr != null">
+        act_descr,
+      </if>
+      <if test="actStart != null">
+        act_start,
+      </if>
+      <if test="actEnd != null">
+        act_end,
+      </if>
+      <if test="actScore != null">
+        act_score,
+      </if>
+      <if test="actTeaNo != null">
+        act_tea_no,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="actId != null">
+        #{actId,jdbcType=INTEGER},
+      </if>
+      <if test="actName != null">
+        #{actName,jdbcType=VARCHAR},
+      </if>
+      <if test="actDescr != null">
+        #{actDescr,jdbcType=VARCHAR},
+      </if>
+      <if test="actStart != null">
+        #{actStart,jdbcType=DATE},
+      </if>
+      <if test="actEnd != null">
+        #{actEnd,jdbcType=DATE},
+      </if>
+      <if test="actScore != null">
+        #{actScore,jdbcType=FLOAT},
+      </if>
+      <if test="actTeaNo != null">
+        #{actTeaNo,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="cn.pzhu.geny.pojo.Major">
+    update activity
+    <set>
+      <if test="actName != null">
+        act_name = #{actName,jdbcType=VARCHAR},
+      </if>
+      <if test="actDescr != null">
+        act_descr = #{actDescr,jdbcType=VARCHAR},
+      </if>
+      <if test="actStart != null">
+        act_start = #{actStart,jdbcType=DATE},
+      </if>
+      <if test="actEnd != null">
+        act_end = #{actEnd,jdbcType=DATE},
+      </if>
+      <if test="actScore != null">
+        act_score = #{actScore,jdbcType=FLOAT},
+      </if>
+      <if test="actTeaNo != null">
+        act_tea_no = #{actTeaNo,jdbcType=INTEGER},
+      </if>
+    </set>
+    where act_id = #{actId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="cn.pzhu.geny.pojo.Major">
+    update activity
+    set act_name = #{actName,jdbcType=VARCHAR},
+      act_descr = #{actDescr,jdbcType=VARCHAR},
+      act_start = #{actStart,jdbcType=DATE},
+      act_end = #{actEnd,jdbcType=DATE},
+      act_score = #{actScore,jdbcType=FLOAT},
+      act_tea_no = #{actTeaNo,jdbcType=INTEGER}
+    where act_id = #{actId,jdbcType=INTEGER}
+  </update>
+</mapper>
