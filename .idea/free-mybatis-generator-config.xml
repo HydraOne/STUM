@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PersistentConfig">
+    <option name="historyConfigList">
+      <map>
+        <entry key="activity">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="ActivityDao" />
+              <option name="daoPackage" value="cn.pzhu.geny" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="Activity" />
+              <option name="modelPackage" value="cn.pzhu.geny.pojo" />
+              <option name="name" value="activity" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="act_id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="activity" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="cn.pzhu.geny.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="class">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="ClassDao" />
+              <option name="daoPackage" value="cn.pzhu.geny" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="Class" />
+              <option name="modelPackage" value="cn.pzhu.geny.pojo" />
+              <option name="name" value="class" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="class_no" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="class" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="cn.pzhu.geny.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="dept">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="DeptDao" />
+              <option name="daoPackage" value="cn.pzhu.geny" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="Dept" />
+              <option name="modelPackage" value="cn.pzhu.geny.pojo" />
+              <option name="name" value="dept" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="dept_no" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="dept" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="cn.pzhu.geny.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="enterprise">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="EnterpriseDao" />
+              <option name="daoPackage" value="cn.pzhu.geny" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="Enterprise" />
+              <option name="modelPackage" value="cn.pzhu.geny.pojo" />
+              <option name="name" value="enterprise" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="ent_no" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="enterprise" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="cn.pzhu.geny.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="major">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="MajorDao" />
+              <option name="daoPackage" value="cn.pzhu.geny" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="Major" />
+              <option name="modelPackage" value="cn.pzhu.geny.pojo" />
+              <option name="name" value="major" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="major_id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="major" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="cn.pzhu.geny.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="message">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="MessageDao" />
+              <option name="daoPackage" value="cn.pzhu.geny" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="Message" />
+              <option name="modelPackage" value="cn.pzhu.geny.pojo" />
+              <option name="name" value="message" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="message_id" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="message" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="cn.pzhu.geny.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="student">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="StudentDao" />
+              <option name="daoPackage" value="cn.pzhu.geny" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="Student" />
+              <option name="modelPackage" value="cn.pzhu.geny.pojo" />
+              <option name="name" value="student" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="stu_no" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="student" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="cn.pzhu.geny.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="teacher">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="TeacherDao" />
+              <option name="daoPackage" value="cn.pzhu.geny" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="Teacher" />
+              <option name="modelPackage" value="cn.pzhu.geny.pojo" />
+              <option name="name" value="teacher" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="tea_no" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="teacher" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="cn.pzhu.geny.mapper" />
+            </Config>
+          </value>
+        </entry>
+        <entry key="user">
+          <value>
+            <Config>
+              <option name="comment" value="true" />
+              <option name="daoMvnPath" value="src/main/java" />
+              <option name="daoName" value="UserDao" />
+              <option name="daoPackage" value="cn.pzhu.geny" />
+              <option name="daoPostfix" value="Dao" />
+              <option name="modelMvnPath" value="src/main/java" />
+              <option name="modelName" value="User" />
+              <option name="modelPackage" value="cn.pzhu.geny.pojo" />
+              <option name="name" value="user" />
+              <option name="overrideJava" value="true" />
+              <option name="overrideXML" value="true" />
+              <option name="primaryKey" value="user_no" />
+              <option name="projectFolder" value="$PROJECT_DIR$" />
+              <option name="tableName" value="user" />
+              <option name="useLombokPlugin" value="true" />
+              <option name="useSchemaPrefix" value="true" />
+              <option name="xmlMvnPath" value="src/main/resources" />
+              <option name="xmlPackage" value="cn.pzhu.geny.mapper" />
+            </Config>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
